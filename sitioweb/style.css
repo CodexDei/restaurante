@@ -1,0 +1,86 @@
+
+#main-header{
+
+  color: violet;
+  background-color: aquamarine;
+}
+
+.platos{
+
+  color: rgb(142, 127, 255);
+  background-color: yellow;
+}
+
+#img-bandeja-paisa{
+  width: 300px;
+  height: 300px;
+}
+
+#pasta{
+
+  color: brown;
+  background-color: aquamarine;
+}
+
+p{
+  /*Color de la letra*/
+  color: chocolate;
+/*tipo de letra*/
+  font-family: 'Courier New', Courier, monospace;
+  /*tamaño de la letra*/
+  font-size: 20px;
+  /*cambiar a mayusculas*/
+  text-transform: uppercase;
+  /*subrayado*/
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+  }
+
+    table,
+    tr,
+    td {
+      margin: 0 auto;
+      border: 2px solid black;
+      border-collapse: collapse;
+      
+    }
+
+    .titulos-tabla-precios{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+/*hace que al pasar el cursor por encima del link, este cambie de color*/
+a:hover{
+  color: orange;
+}
+
+body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
