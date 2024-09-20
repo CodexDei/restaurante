@@ -22,21 +22,22 @@
   background-color: aquamarine;
 }
 
-p{
+
+/* p{ */
   /*Color de la letra*/
-  color: chocolate;
+  /*color: chocolate;*/
 /*tipo de letra*/
-  font-family: 'Courier New', Courier, monospace;
+  /*font-family: 'Courier New', Courier, monospace;*/
   /*tamaño de la letra*/
-  font-size: 20px;
+ /* font-size: 20px;*/
   /*cambiar a mayusculas*/
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   /*subrayado*/
-  text-decoration-line: underline;
+  /* text-decoration-line: underline;
   text-decoration-color: red;
   text-decoration-style: solid;
-  text-decoration-thickness: 5px;
-  }
+  text-decoration-thickness: 5px; */
+  /*} */
 
     table,
     tr,
@@ -57,7 +58,7 @@ a:hover{
   color: orange;
 }
 
-body, html {
+/* body, html {
             height: 100%;
             margin: 0;
         }
@@ -83,4 +84,4 @@ body, html {
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+        } */

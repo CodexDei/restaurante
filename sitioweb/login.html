@@ -9,27 +9,44 @@
 
 <body>
 
-  <form action="/sitioweb/index.html">Iniciar Sesion
+  <div class="container">
 
-    <BR></BR>
+    <form action="/sitioweb/index.html">Iniciar Sesion
 
-    <label for="usuario">Usuario:</label>
-    <input type="text" id="usuario" name="usuario" required placeholder="Ingrese el usuario">
-    <br><br>
+      <BR></BR>
 
-    <label for="password">Contraseña:</label>
-    <input type="password" id="password" name="password" required placeholder="Ingrese Contraseña">
-    <br><br>
+      <div class="mb-3">
+        <label class="form-label h4" for="usuario">Usuario:</label> <!-- Clase h4 para agrandar -->
+        <div class="input-group input-group-lg"> <!-- input-group-lg para agrandar el input -->
+          <span class="input-group-text">😎</span>
+          <input class="form-control" type="text" id="usuario" placeholder="Ingresa tu usuario">
+          <span class="input-group-text">😎</span>
+        </div>
+      </div>
 
-    <label for="recuerdame">Recuerdame
-      <input type="checkbox" name="recuerdame">
-    </label>
-    <br><br>
+      <br><br>
 
-    <button type="submit">ENVIAR</button>
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required placeholder="Ingrese Contraseña">
+      <br><br>
+
+      <label for="recuerdame">Recuerdame
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox">
+        </div>
+      </label>
+      <br><br>
+      <div class="form-floating">
+        <input type="email" class="form-control" id="addressInput" placeholder="Address">
+        <label for="addressInput">Address</label>
+      </div>
 
 
-  </form>
+      <button type="submit">ENVIAR</button>
+
+
+    </form>
+  </div>
 
 </body>
 
